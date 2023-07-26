@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Box in Box</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: Arial, Helvetica, sans-serif;
+            height: 100vh;
+            width: 100vw;
+        }
+        .b1{
+            display: flex;
+            align-items: stretch;
+            border: 5px ridge black;
+            height: 80vh;
+            width: 80vw;
+            background-color: #F96167;
+        }
+        .b11{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 5px ridge black;
+            height: 95%;
+            width: 25%;
+            margin: 10px;
+            background-color:  #4831D4;
+        }
+        .b12{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 5px ridge black;
+            height: 95%;
+            width: 45%;
+            margin: 10px;
+            background-color:  #4831D4;
+        }
+        .b111{
+            border: 5px ridge black;
+            height: 50%;
+            width: 85%;
+            margin: 20px;
+            background-color: #FBEAEB;
+        }
+        .b112{
+            border: 5px ridge black;
+            height: 40%;
+            width: 75%;
+            margin: 20px;
+            background-color: #FBEAEB;
+        }
+        .b121{
+            border: 5px ridge black;
+            height: 90%;
+            width: 90%;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            background-color: #FBEAEB;
+        }
+        .b1211{
+            border: 5px ridge black;
+            margin: 20px;
+            background-color: #CCF381;
+            height: 25%;
+            width: 90%;
+        }
+        .b1212{  
+            border: 5px ridge black;
+            margin: 10px;
+            background-color: #CCF381;
+            height: 55%;
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+    <h1>BOX IN BOX USING FLEX BOX</h1>
+    <div class="b1">
+        <div class="b11">
+            <div class="b111"></div>
+            <div class="b112"></div>
+        </div>
+        <div class="b12">
+            <div class="b121">
+                <div class="b1211"></div>
+                <div class="b1212"></div>
+            </div>
+        </div>
+        <div class="b11">
+            <div class="b111"></div>
+            <div class="b112"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
